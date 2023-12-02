@@ -6,8 +6,10 @@ public class BunkerController : MonoBehaviour
 
     public float GetHealth => mCurrentHealth;
 
+    public void SetHealth(float amount) => mCurrentHealth -= amount;
+
     private void Start()
     {
-        mCurrentHealth = 100;
+        mCurrentHealth = 1000;
     }
 }

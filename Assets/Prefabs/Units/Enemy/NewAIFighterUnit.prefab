@@ -995,7 +995,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1013,7 +1013,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -3399819874440642374, guid: 2f2086b22ec03b741b985066fec6e463, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 0536827f966670f438266059e50f6f88, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b9384e39cbea0d244b392138c022b5ba, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

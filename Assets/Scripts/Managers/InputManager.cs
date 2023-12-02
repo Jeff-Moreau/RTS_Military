@@ -23,6 +23,7 @@ public class InputManager : MonoBehaviour
     // INSPECTOR VARIABLES
     [SerializeField] private GameObject mMarker = null;
     [SerializeField] private GameObject mPauseScreen = null;
+    [SerializeField] private BunkerController mBunker = null;
     //[SerializeField] private Texture2D mSelectionBoxColor = null;
 
     [Header("Camera Stuff")]
@@ -80,6 +81,11 @@ public class InputManager : MonoBehaviour
             {
                 Pause();
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            mBunker.SetHealth(500);
         }
        
         mMainCamera.transform.position = mCameraPosition;
